@@ -8,34 +8,39 @@
         <title>My Portfolio</title>
     </head>
     <body>
+ 
         <aside>
-            <figure>
-                <div id="avatar"></div>
-                <figcaption>Johnny Doe</figcaption>
+            <figure>       
+                <div id="avatar">
+            
+            </div>
+
+            <img class="img-avatar" src="images/riyan.jpg">
+                <figcaption>Riyan Maulana</figcaption>
             </figure>
-            <img src="images/menu.svg">
+            <img class="img-menu" src="images/menu.svg">
             <nav>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About me</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About me</a></li>
+                    <li><a href="portofolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
         </aside>
         <main>
-            <h1>I'm a designer of things</h1>
-            <p>You design this thing and then make it a reality in the browser, oh yeah.. Imagine the possibilities of your new skill.</p>
+            <h1>I'm a imaginer and software developer</h1>
+            <p>Hello, universe. I am very fun with computer and very interisting with apps and robots. I often imagine the future world of technologies like a films transformers, starwars, and etch.
+Not just that, I am very interisting bussiness with combination technologies and very interisting to build startup bussiness with technologies.</p>
 
             <a href="#" class="cta">my portfolio</a>
         </main>
 
 
         <script>
-        
             (function() {
                 var menu = document.querySelector('ul'),
-                    menulink = document.querySelector('img');
+                    menulink = document.querySelector('.img-menu');
                 
                 menulink.addEventListener('click', function(e) {
                     menu.classList.toggle('active');

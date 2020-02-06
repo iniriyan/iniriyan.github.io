@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="css/main.css">
+        <title>My Portfolio</title>
+    </head>
+    <body>
+ 
+        <aside>
+            <figure>       
+                <div id="avatar">
+            
+            </div>
+
+            <img class="img-avatar" src="images/riyan.jpg">
+                <figcaption>Riyan Maulana</figcaption>
+            </figure>
+            <img class="img-menu" src="images/menu.svg">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About me</a></li>
+                    <li><a href="portofolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <main>
+            <h1>My portfolio</h1>
+            <p>Just click this button... </p>
+
+            <a href="#" class="cta">my portfolio</a>
+        </main>
+
+
+        <script>
+            (function() {
+                var menu = document.querySelector('ul'),
+                    menulink = document.querySelector('.img-menu');
+                
+                menulink.addEventListener('click', function(e) {
+                    menu.classList.toggle('active');
+                    e.preventDefault();
+                });
+            })();
+        
+        </script>
+    </body>
+</html>

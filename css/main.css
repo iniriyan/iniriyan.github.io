@@ -24,7 +24,14 @@ aside {
     padding: 2em;
 }
 
-img {
+.img-avatar{
+    width: 80px;
+    height: auto;
+    margin: 2%;
+    border-radius: 100%;
+}
+
+.img-menu{
     width: 40px;
     cursor: pointer;
 }
@@ -34,6 +41,7 @@ figure {
 }
 
 figcaption {
+
     font-size: 1.3em;
     font-weight: bold;
 }
@@ -121,17 +129,57 @@ p {
         background-size: 70%;
     }
 
-    #avatar {
-        border-radius: 50%;
-        background: #fff;
+/*     
+    .mainheader img{
+        width: 15%;
+        height: auto;
+        margin: 2%;
+        border-radius: 1000px;
+        margin-left: 37%;
+    } */
+
+    
+    #avatar img{
         width: 50px;
         height: 50px;
-        margin: 2em auto 1em auto;
+    }
+    
+    #avatar {
+        border-radius: 100%;
+        background-size: 10px;
+        /* background: url('../images/riyan.jpg'); */
+
+        width: 80px;
+        image-orientation: center;
+        height: 80px;
+        margin: 2em auto 1em auto; 
+        /* background: #000;
+        
+
+        /* width: 15%;
+        height: auto;
+        margin: 2%;
+        border-radius: 80px; */
+        
+        
+        /* width: 20%;
+        height: auto;
+        margin: 2%; */
+        /* border-radius: 100%; */
     }
 
     figcaption {
+        /* background: url('../images/riyan.jpg'); */
+        
         text-align: center;
         color: #000;
+    }
+
+    gambar{
+        background: url('../images/riyan.jpg');
+        
+        /* text-align: center;
+        color: #000; */
     }
 
     ul {
